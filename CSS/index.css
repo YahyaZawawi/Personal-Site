@@ -1,0 +1,758 @@
+/* how to add local font */
+@font-face {
+font-family: OpenSans-Bold;
+
+ src: url('../fonts/OpenSans-Bold.ttf'),
+url('../fonts/OpenSans-ExtraBold.ttf'),
+url('../fonts/OpenSans-Light.ttf'),
+url('../fonts/PaytoneOne-Regular.ttf');
+ ;
+
+}
+
+/* small mobile */
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+
+  /* NavBar Section */
+  .navbar{
+    padding-top: 5vh!important;
+    width: 80vw!important;
+
+  }
+
+  .logo-white{
+    position:absolute;
+  bottom: -6vh;
+  left: 5vw;
+  width: 24vw;
+  }
+
+  .icon-for-switch{
+      width: 16vw;
+  }
+
+.en{
+  position:absolute;
+  bottom: -9vw;
+  left: 45vw;
+}
+
+.sa{
+  position:absolute;
+  bottom: -9vw;
+}
+
+  /* AVATAR SECTION */
+  #who-am-i-Section{
+    margin-top: 18vh;
+    text-align: center;
+  }
+
+
+  .front-end-h1{
+  font-family: 'Paytone One', sans-serif;
+  color: #4a4a4a;
+  font-size: 6.75vw;
+  text-align: center;
+
+  }
+
+  .front-end-p{
+    text-align: center;
+    font-family: OpenSans-Light;
+    color: #4a4a4a;
+    font-size: 4vw;
+    margin-top: 10vw;
+  }
+
+  .avatar-me{
+    margin-top: 5vh;
+  height: 30vh;
+  width: 30vh;
+  }
+  .img-me-div{
+    text-align: center;
+    margin-top: 5vh;
+  }
+
+  .front-end-div{
+    text-align: center;
+    margin-top: 20vh;
+  }
+  .front-end-image{
+
+    display: none;
+  }
+
+  /* ABOUT ME SECTION */
+  #about-me-section{
+    background-color: #3F1D2A;
+    padding-top: 10vh;
+    text-align: center;
+    padding-bottom: 5vw;
+  }
+
+  .about-me-h1{
+    font-family: OpenSans-Bold;
+    color: #F2DB98;
+    font-size: 5.25vw;
+  }
+
+  .about-me-p{
+    font-family: OpenSans-Light;
+    color: #F2DB98;
+    font-size: 4.75vw;
+    text-align: left;
+    padding-top: 6vh;
+    padding-bottom: 15vh;
+  }
+
+  /* CARD SECTION */
+  .row{
+    margin-right: 5.5vw!important;
+    margin-left: 5.5vw!important;
+  }
+  #card-section{
+    text-align: center;
+  }
+
+  .col-lg-6,.col-sm-6{
+    padding: 0vw!important;
+  }
+
+  .card-img-top{
+    width: 15vw!important;
+    padding-top: 12vw;
+    padding-bottom: 2vw;
+  }
+
+  .coding-image{
+    width: 17.75vw!important;
+  }
+  .deisgner-h4{
+    font-family: 'Paytone One', sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 2.5vw;
+  }
+
+  .designer-p{
+    font-family: OpenSans-Light;
+    font-size: 4.25vw;
+  }
+
+  .things-p{
+    font-family: PaytoneOne-Regular;
+    color: #D01D2A;
+    font-size: 4.5vw;
+    margin-top: 8vw;
+    margin-bottom: 6.25vw;
+  }
+  .designer-work-p{
+      font-family: OpenSans-Light;
+        color: #4a4a4a;
+        margin-bottom: 4vw;
+
+  }
+  .design-tools{
+    font-family: PaytoneOne-Regular;
+    color: #D01D2A;
+    font-size: 5.5vw;
+    margin-top: 4vw;
+    margin-bottom: 6.5vw;
+    padding-left: 4vw;
+  }
+
+  .body-ul{
+    padding-left: 26px;
+  }
+  .li-items{
+    list-style: none;
+    margin-bottom: 1.5vw;
+    padding-right: 3vw;
+  }
+  .row{
+
+
+  }
+
+  /* RECENT WORK SECTION */
+
+  #recent-work-section{
+    text-align: center;
+    background-color: #3F1D2A;
+    margin-top: 35VW;
+    padding-top: 15vw;
+    }
+
+    .recent-h1{
+      font-family: 'Paytone One', sans-serif;
+      color: #F2DB98;
+      font-size: 6vw;
+    }
+
+    .recent-p{
+      font-family: OpenSans-Light;
+      color: #f2DB98;
+      margin-top: 7vw;
+      font-size: 4.5vw;
+    }
+    .email-me-pa{
+      color: #f2DB98;
+    }
+    .email-me-pa:hover{
+      color: #f2DB98;
+    }
+
+    /* IMAGES SECTION */
+    .w-100{
+
+      height: 70vw;
+      border-radius: 1vw;
+    }
+    .carousel-inner{
+      padding: 5vw 5vw;
+    }
+
+  /* FOOTER SECTION */
+
+  #footer-section{
+    text-align: center;
+    background-color: #3F1D2A;
+    padding-top: 20vw;
+    padding-bottom: 5vw;
+  }
+  .footer-image{
+    padding-bottom: 10vw;
+    width: 29vw;
+  }
+
+  .advice-h1{
+    font-family: OpenSans-Light;
+    color: #F2DB98;
+      font-size: 6vw;
+      line-height: 14vw;
+  }
+
+  .icon-div{
+    margin-top: 15vw;
+  }
+
+  .icon-span{
+    margin-right: 2vw;
+
+    }
+  .custom-icon{
+  border-radius: 50% !important;
+  color: #F2DB98 !important;
+  border-color:#F2DB98 !important
+
+
+  }
+
+  .custom-icon:hover{
+  background-color: #F2DB98 !important;
+  color: #3F1D2A !important;
+  }
+
+  .p-copy-and-right{
+    margin-top: 15vw;
+    font-family: OpenSans-Light;
+    color: #F2DB98;
+      font-size: 4.25vw;
+
+  }
+
+}
+
+
+
+
+/* larg mobile */
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+
+  /* NavBar Section */
+  .navbar{
+    padding-top: 5vh!important;
+    width: 80vw!important;
+
+  }
+
+  .logo-white{
+    position:absolute;
+  bottom: -6vh;
+  left: 5vw;
+  width: 24vw;
+  }
+
+  .icon-for-switch{
+      width: 16vw;
+  }
+
+.en{
+  position:absolute;
+  bottom: -9vw;
+  left: 45vw;
+}
+
+.sa{
+  position:absolute;
+  bottom: -9vw;
+}
+
+  /* AVATAR SECTION */
+  #who-am-i-Section{
+    margin-top: 18vh;
+    text-align: center;
+  }
+
+
+  .front-end-h1{
+  font-family: 'Paytone One', sans-serif;
+  color: #4a4a4a;
+  font-size: 6.75vw;
+  text-align: center;
+
+  }
+
+  .front-end-p{
+    text-align: center;
+    font-family: OpenSans-Light;
+    color: #4a4a4a;
+    font-size: 4vw;
+    margin-top: 10vw;
+  }
+
+  .avatar-me{
+    margin-top: 5vh;
+  height: 30vh;
+  width: 30vh;
+  }
+  .img-me-div{
+    text-align: center;
+    margin-top: 5vh;
+  }
+
+  .front-end-div{
+    text-align: center;
+    margin-top: 20vh;
+  }
+  .front-end-image{
+
+    display: none;
+  }
+
+  /* ABOUT ME SECTION */
+  #about-me-section{
+    background-color: #3F1D2A;
+    padding-top: 10vh;
+    text-align: center;
+    padding-bottom: 5vw;
+  }
+
+  .about-me-h1{
+    font-family: OpenSans-Bold;
+    color: #F2DB98;
+    font-size: 5.25vw;
+  }
+
+  .about-me-p{
+    font-family: OpenSans-Light;
+    color: #F2DB98;
+    font-size: 4.75vw;
+    text-align: left;
+    padding-top: 6vh;
+    padding-bottom: 15vh;
+  }
+
+  /* CARD SECTION */
+  .row{
+    margin-right: 5.5vw!important;
+    margin-left: 5.5vw!important;
+  }
+  #card-section{
+    text-align: center;
+  }
+
+  .col-lg-6,.col-sm-6{
+    padding: 0vw!important;
+  }
+
+  .card-img-top{
+    width: 15vw!important;
+    padding-top: 12vw;
+    padding-bottom: 2vw;
+  }
+
+  .coding-image{
+    width: 17.75vw!important;
+  }
+  .deisgner-h4{
+    font-family: 'Paytone One', sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 2.5vw;
+  }
+
+  .designer-p{
+    font-family: OpenSans-Light;
+    font-size: 4.25vw;
+  }
+
+  .things-p{
+    font-family: PaytoneOne-Regular;
+    color: #D01D2A;
+    font-size: 4.5vw;
+    margin-top: 8vw;
+    margin-bottom: 6.25vw;
+  }
+  .designer-work-p{
+      font-family: OpenSans-Light;
+        color: #4a4a4a;
+        margin-bottom: 4vw;
+
+  }
+  .design-tools{
+    font-family: PaytoneOne-Regular;
+    color: #D01D2A;
+    font-size: 5.5vw;
+    margin-top: 4vw;
+    margin-bottom: 6.5vw;
+    padding-left: 4vw;
+  }
+
+  .body-ul{
+    padding-left: 42px;
+  }
+  .li-items{
+    list-style: none;
+    margin-bottom: 1.5vw;
+    padding-right: 3vw;
+  }
+  .row{
+
+
+  }
+
+  /* RECENT WORK SECTION */
+
+  #recent-work-section{
+    text-align: center;
+    background-color: #3F1D2A;
+    margin-top: 35VW;
+    padding-top: 15vw;
+    }
+
+    .recent-h1{
+      font-family: 'Paytone One', sans-serif;
+      color: #F2DB98;
+      font-size: 6vw;
+    }
+
+    .recent-p{
+      font-family: OpenSans-Light;
+      color: #f2DB98;
+      margin-top: 7vw;
+      font-size: 4.5vw;
+    }
+    .email-me-pa{
+      color: #f2DB98;
+    }
+    .email-me-pa:hover{
+      color: #f2DB98;
+    }
+
+    /* IMAGES SECTION */
+    .w-100{
+
+      height: 70vw;
+      border-radius: 1vw;
+    }
+    .carousel-inner{
+      padding: 5vw 5vw;
+    }
+
+  /* FOOTER SECTION */
+
+  #footer-section{
+    text-align: center;
+    background-color: #3F1D2A;
+    padding-top: 20vw;
+    padding-bottom: 5vw;
+  }
+  .footer-image{
+    padding-bottom: 10vw;
+    width: 29vw;
+  }
+
+  .advice-h1{
+    font-family: OpenSans-Light;
+    color: #F2DB98;
+      font-size: 6vw;
+      line-height: 14vw;
+  }
+
+  .icon-div{
+    margin-top: 15vw;
+  }
+
+  .icon-span{
+    margin-right: 2vw;
+
+    }
+  .custom-icon{
+  border-radius: 50% !important;
+  color: #F2DB98 !important;
+  border-color:#F2DB98 !important
+
+
+  }
+
+  .custom-icon:hover{
+  background-color: #F2DB98 !important;
+  color: #3F1D2A !important;
+  }
+
+  .p-copy-and-right{
+    margin-top: 15vw;
+    font-family: OpenSans-Light;
+    color: #F2DB98;
+      font-size: 4.25vw;
+
+  }
+}
+
+
+/* desktop */
+@media only screen and (min-width: 961px){
+
+/* NavBar Section */
+.navbar{
+  padding-top: 5vh!important;
+  width: 80vw!important;
+
+}
+
+.logo-white{
+  position:absolute;
+bottom: 0vh;
+left: -8vw;
+}
+
+.icon-for-switch{
+  width: 5vw;
+
+
+}
+
+
+/* AVATAR SECTION */
+#who-am-i-Section{
+  margin-top: 15vh;
+  text-align: center;
+}
+
+
+.front-end-h1{
+font-family: 'Paytone One', sans-serif;
+color: #4a4a4a;
+font-size: 2.75vw;
+text-align: center;
+
+}
+
+.front-end-p{
+  text-align: center;
+  font-family: OpenSans-Light;
+  color: #4a4a4a;
+  font-size: 1.5vw;
+}
+
+.avatar-me{
+  margin-top: 5vh;
+height: 30vh;
+width: 30vh;
+}
+.img-me-div{
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.front-end-div{
+  text-align: center;
+  margin-top: 20vh;
+}
+.front-end-image{
+  height: 48vh;
+  width: 55vw;
+}
+
+/* ABOUT ME SECTION */
+#about-me-section{
+  background-color: #3F1D2A;
+  padding-top: 15vh;
+  text-align: center;
+  padding-bottom: 5vw;
+}
+
+.about-me-h1{
+  font-family: OpenSans-Bold;
+  color: #F2DB98;
+  font-size: 2.25vw;
+}
+
+.about-me-p{
+  font-family: OpenSans-Light;
+  color: #F2DB98;
+  font-size: 1.75vw;
+  text-align: left;
+  padding-top: 2vh;
+  padding-bottom: 20vh;
+}
+
+/* CARD SECTION */
+.row{
+  margin-right: 5.5vw!important;
+  margin-left: 5.5vw!important;
+}
+#card-section{
+  text-align: center;
+}
+
+.col-lg-6,.col-sm-6{
+  padding: 0vw!important;
+}
+
+.card-img-top{
+  width: 4vw!important;
+  padding-top: 4vw;
+  padding-bottom: 2vw;
+}
+
+.coding-image{
+  width: 4.75vw!important;
+}
+.deisgner-h4{
+  font-family: 'Paytone One', sans-serif;
+  color: #4a4a4a;
+  margin-bottom: 2.5vw;
+}
+
+.designer-p{
+  font-family: OpenSans-Light;
+  font-size: 1.25vw;
+}
+
+.things-p{
+  font-family: PaytoneOne-Regular;
+  color: #D01D2A;
+  font-size: 1.5vw;
+  margin-top: 4vw;
+  margin-bottom: 1.25vw;
+}
+.designer-work-p{
+    font-family: OpenSans-Light;
+      color: #4a4a4a;
+      margin-bottom: 4vw;
+}
+.design-tools{
+  font-family: PaytoneOne-Regular;
+  color: #D01D2A;
+  font-size: 1.5vw;
+  margin-top: 4vw;
+  margin-bottom: 1.5vw;
+}
+.li-items{
+  list-style: none;
+  margin-bottom: 1.5vw;
+  padding-right: 3vw;
+}
+.row{
+  position: absolute;
+  top: 100vw;
+}
+
+/* RECENT WORK SECTION */
+
+#recent-work-section{
+  text-align: center;
+  background-color: #3F1D2A;
+  margin-top: 35VW;
+  padding-top: 15vw;
+  }
+
+  .recent-h1{
+    font-family: 'Paytone One', sans-serif;
+    color: #F2DB98;
+    font-size: 2vw;
+  }
+
+  .recent-p{
+    font-family: OpenSans-Light;
+    color: #f2DB98;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+  }
+  .email-me-pa{
+    color: #f2DB98;
+  }
+  .email-me-pa:hover{
+    color: #f2DB98;
+  }
+
+  /* IMAGES SECTION */
+  .w-100{
+    height: 35vw;
+    border-radius: 1vw;
+  }
+  .carousel-inner{
+    padding: 5vw 5vw;
+  }
+
+/* FOOTER SECTION */
+
+#footer-section{
+  text-align: center;
+  background-color: #3F1D2A;
+  padding-top: 20vw;
+  padding-bottom: 5vw;
+}
+.footer-image{
+  padding-bottom: 10vw;
+}
+
+.advice-h1{
+  font-family: OpenSans-Light;
+  color: #F2DB98;
+    font-size: 2vw;
+    line-height: 5vw;
+}
+
+.icon-div{
+  margin-top: 15vw;
+}
+
+.icon-span{
+  margin-right: 2vw;
+
+  }
+.custom-icon{
+border-radius: 50% !important;
+color: #F2DB98 !important;
+border-color:#F2DB98 !important
+
+
+}
+
+.custom-icon:hover{
+background-color: #F2DB98 !important;
+color: #3F1D2A !important;
+}
+
+.p-copy-and-right{
+  margin-top: 5vw;
+  font-family: OpenSans-Light;
+  color: #F2DB98;
+    font-size: 1.25vw;
+
+}
+
+}
